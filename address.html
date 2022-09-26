@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <link rel="stylesheet" href="./style/address.css">
+</head>
+<body>
+     <!-- ------------navbar----------- -->
+     <div id="navbar">
+     <!-- ----import----- -->
+    </div>
+<!-- ---------Below part--------- -->
+<div id="part2">
+    <div id="part21">
+        <div id="form">
+            <div class="head">CONTACT DETAILS</div>
+            <div id="names">
+                <input id="name" type="text" placeholder="Name*">
+            </div>
+            <div id="mobileno">
+                <input id="mobile" type="text" placeholder="Mobile No*">
+            </div>
+            <div class="head">ADDRESS</div>
+            <div id="pincode">
+                <input id="pin" type="number" placeholder="Pin Code*" >
+            </div>
+            <div id="address">
+                <input id="house" type="text" placeholder="Address(House No, Building, Sreet, Area)*">
+            </div>
+            <div id="locality">
+                <input id="local" type="text" placeholder="Locality / Town*">
+            </div>
+            <div id="CITY">
+                <div id="city">
+                    <input id="incity" type="text" placeholder="City / District*" value="Alwar" >
+                </div>
+                <div id="state">
+                    <input id="instate" type="text" placeholder="State*" value="Rajasthan">
+                </div>
+            </div>
+            <div class="head">
+                                 SAVE ADDRESS AS
+            </div>
+            <div id="as">
+                <div id="home">Home</div>
+                <div id="work"> Work</div>
+            </div>
+            <div id="default">
+                <input id="checkbox" type="checkbox">
+               <p> Make this my default address</p>
+            </div>
+            <div id="addaddress">
+                <a href="updateadd.html" ><button  id="addbutton">ADD ADDRESS</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="part22">
+        <div id="price">
+            <div id="pricedetail">DELIVERY ESTIMATES</div>
+
+            <div class="spacebetween">
+                <div>Total MRP</div>
+                <div id="totalmrp">₹</div>
+            </div>
+            
+            <div class="spacebetween">
+                <div>Discount on MRP</div>
+                <div id="discountmrp" style="color: #03a685;"></div>
+            </div>
+
+            <div class="spacebetween">
+                <div>Convenience Fee</div>
+                <div style="display: flex">
+                    <div id="₹99" >₹ 99 </div>
+                    <div id="freeship">FREE</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="ordercontainer">
+            <div id="totalprice">
+                <div>Total Amount</div>
+                <div id="totalamount"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script type="module" src="./js/address.js"></script>

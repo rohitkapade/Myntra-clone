@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bag</title>
+</head>
+<link rel="stylesheet" href="./style/bag.css">
+<body>
+
+    <!-- ------------navbar----------- -->
+    <div id="navbar">
+        
+    </div>
+
+
+
+    <div id="bag">
+        <div id="left">
+            <div id="add">
+                <p> <b>Deliver to</b>:Rakesh,301001 <br>pratap nagar delhi by pass gurugram</p>
+                <button id="change">CHANGE ADDRESS</button>
+            </div>
+            <div id="offer">
+                <div id="available">
+                    <img  src="https://cdn.iconscout.com/icon/premium/png-64-thumb/available-3758244-3136484.png" alt="">
+                <h3>Available Offers</h3>
+                </div>
+                <div id="offerlist">
+                    <ul>
+                        <li>
+                            <span>10% Instant Discount on IDFC FIRST Bank Cards on a min spend of Rs 2,500.TCA</span>
+                        </li>
+                        <span id="more">
+                            <li>
+                                <span>5% Unlimited Cashback on Flipkart Axis Bank Credit Card. TCA</span>
+                            </li>
+                            <li>
+                                <span>10% Cashback upto Rs 100 on Paytm Postpaid transaction on a min spend of Rs 1000 . TCA</span>
+                            </li>
+                            <li>
+                                <span>15% Cashback upto Rs 150 on Freecharge Paylater transaction. TCA</span>
+                            </li>
+                            <li>
+                                <span>10% Cashback upto Rs 200 on Ola Money Postpaid or wallet transaction on a min spend of Rs 1000 . TCA</span>
+                            </li>
+                            <li>
+                                <span>Upto Rs 500 Cashback on Mobikwik Wallet Transactions on a min spend of Rs 999.Use code MBK500 on Mobikwik.TCA</span>
+                            </li>
+                            <li>
+                                <span>5% Cashback upto Rs 150 on a minimum spend of Rs 1,500 with PayZapp. TCA</span>
+                            </li>
+                        </span> 
+                    </ul>
+                </div>
+                <div id="showmore"  style="cursor: pointer;">Show Less <img id="arrow" src="https://cdn-icons.flaticon.com/png/128/2609/premium/2609201.png?token=exp=1655202851~hmac=9d4ca6b67cea034448f4816a057c2c1f" alt="arrow"></div>
+            </div>
+            <div id="delivery">
+                <img src="data:image/png;base64,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" alt="truck">
+                <p>Yay! <span id="nofee">No convenience fee</span> on this order</p>
+            </div>
+            <div id="append"></div>
+
+
+            <!-- -------append part here---------- -->
+
+            </div>
+
+            <!-- -----------right-part------- -->
+
+
+            <div id="part22">
+                <div id="covid">
+                    <div id="donate">DONATE FOR COVID-19 RELIEF</div>
+                    <div id="helpcovid">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAB/CAMAAADxY+0hAAAALVBMVEX////KysotLS3r6+v39/f7+/v09PTPz8+3t7chISHn5+cAAACdnZ0XFxfw8PAWsoo2AAABKklEQVRoge2Z226DMAxAzcWmUNj/f+5sh66Tpj2MpMs0nSMRLlF67BhVQhYBAAAAAAAAgD+ALsM1Fm2hvx3reI31uDXQ3/dtusa236sD0GOvWL0ftSVY1q1i9bYulf5hnCpWT+OAHz9+/Pjx48ePHz/+f+hX/fqt84t+nZ2+fnux3779mNTw22v9qu7XIhM9By0zs3n157z9mG3s9+21qHEcMj+GKHk5+4SWszwr0dSv4Rf/bb86A3GTb7ynPkf+58NPb2Jjv1vEYvQkIxg1Sb+U7DPAsEf62tpvKcnNTUfkbWUn5Ezdnntgb439nqcHoVnuFMYfjl9ETI/JfJZvhIfb2n8F/Pjx48ePHz9+/Ph/Ru/+X+/+Z+/+b/f+d/f+PwAAAAAAAADU8g5ivgvkXxKSHQAAAABJRU5ErkJggg==" alt="square">
+                        <p>Help India fight COVID-19</p>
+                    </div>
+                    <div id="donateRs">
+                        <div>₹10</div>
+                        <div>₹50</div>
+                        <div>₹100</div>
+                        <div>Other</div>
+                    </div>
+                    <div id="knowmore">Know More</div>
+                </div>
+                <div id="coupon">
+                    <div id="couphead">COUPONS</div>
+                    <div id="applycontainer">
+                        <div id="applycoupon">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAB/CAMAAADxY+0hAAAALVBMVEX////KysotLS3r6+v39/f7+/v09PTPz8+3t7chISHn5+cAAACdnZ0XFxfw8PAWsoo2AAABKklEQVRoge2Z226DMAxAzcWmUNj/f+5sh66Tpj2MpMs0nSMRLlF67BhVQhYBAAAAAAAAgD+ALsM1Fm2hvx3reI31uDXQ3/dtusa236sD0GOvWL0ftSVY1q1i9bYulf5hnCpWT+OAHz9+/Pjx48ePHz/+f+hX/fqt84t+nZ2+fnux3779mNTw22v9qu7XIhM9By0zs3n157z9mG3s9+21qHEcMj+GKHk5+4SWszwr0dSv4Rf/bb86A3GTb7ynPkf+58NPb2Jjv1vEYvQkIxg1Sb+U7DPAsEf62tpvKcnNTUfkbWUn5Ezdnntgb439nqcHoVnuFMYfjl9ETI/JfJZvhIfb2n8F/Pjx48ePHz9+/Ph/Ru/+X+/+Z+/+b/f+d/f+PwAAAAAAAADU8g5ivgvkXxKSHQAAAABJRU5ErkJggg==" alt="">
+                            <p>Apply Coupons</p>
+                        </div>
+                        <div id="apply">APPLY</div>
+                    </div>
+                </div>
+                <div id="giftcontainer">
+                    <div>GIFTING AND PERSONALISATION</div>
+                    
+                </div>
+
+                <div id="price">
+                    <div id="pricedetail">PRICE DETAILS</div>
+
+                    <div class="spacebetween">
+                        <div>Total MRP</div>
+                        <div id="totalmrp">₹</div>
+                    </div>
+                    
+                    <div class="spacebetween">
+                        <div>Discount on MRP</div>
+                        <div id="discountmrp" ></div>
+                    </div>
+                    
+                    <div class="spacebetween">
+                        <div>Coupon Discount</div>
+                        <div id="appcoup"> Apply Coupon</div>
+                    </div>
+
+                    <div class="spacebetween">
+                        <div>Convenience Fee</div>
+                        <div >
+                            <div id="₹99" >₹ 99 </div>
+                            <div id="freeship">FREE</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="ordercontainer">
+                    <div id="totalprice">
+                        <div>Total Amount</div>
+                        <div id="totalamount"></div>
+                    </div>
+                    <div>
+                       <a href="./address.html"> <button id="button">PLACE ORDER</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+    
+</body>
+</html>
+<script type="module" src="./js/bag.js"></script>

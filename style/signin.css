@@ -1,0 +1,166 @@
+
+
+#mainbox{
+   
+    width:60%;
+    margin:auto;
+    height: 400px;
+    /* display:none;
+    z-index: 1; */
+    
+}
+
+#mainconta{
+    width: 50%;
+    margin: auto;
+    
+    height: 200px;
+    
+}
+.ijj{
+    height: 180px;
+    margin-left: -125px;
+    margin-top: 10px;
+    width: 420px;
+    
+}
+
+#logodiv{
+    width: 60%;
+    height:60px;
+    margin:auto;
+    margin-right: 50px;
+    
+
+}
+
+#signincontent{
+    width: 100%;
+    height: 340px;
+    margin-top: 130px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+}
+
+#marginpa{
+    margin-left: 20px;
+}
+#marginp+h3{
+    font-size: 28px;
+    color: #1f1f1f;
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+@import
+url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Playfair+Display&family=Poppins:wght@300&family=Roboto+Slab:wght@500&family=Supermercado+One&display=swap");
+
+label{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; 
+
+    
+}
+.wri{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+input{
+ margin-bottom: 10px;
+ border: 2px solid rgb(202, 197, 197);
+ padding: 0px 0px;
+ width: 350px;
+}
+
+#checkflex{
+    display: flex;
+    margin-top: 10px;
+}
+#flex2{
+    margin-top: 10px;
+    
+    
+}
+#para1{
+    font-weight: 13px;
+}
+#flex2>div{
+    width:20%;
+}
+#para{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(236, 34, 34);
+    margin-top: -38px;
+    margin-left: 200px;
+    /* margin-bottom: 30px; */
+}
+
+    
+
+.button1{
+    width:250px;
+    height:29px;
+    padding: 1px 4px;
+   color:white;
+   margin-top: 20px;
+   cursor: pointer;
+   border: 1px solid white;
+   margin-left: 53px;
+   background-color:rgb(236, 34, 34);
+ border-radius: 5px;
+}
+.button12{
+    width:250px;
+    height:29px;
+    padding: 1px 4px;
+   color:white;
+   
+   margin-top: -70px;
+   margin-bottom: 40px;
+   cursor: pointer;
+   border: 1px solid white;
+   margin-left: 53px;
+   background-color:rgb(236, 34, 34);
+ border-radius: 5px;
+
+}
+   
+
+#parapart{
+    width: 250px;
+    height: 15px;
+}
+
+#parapart>p{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+#signin{
+    margin-top: 80px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+}
+#signin>a{
+    margin-top:15px;
+}
+
+#footer{
+    display: flex;
+  
+}
+#footer>p{
+  
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+#last{
+    font-size: 8px;
+    margin-left: 70px;
+}

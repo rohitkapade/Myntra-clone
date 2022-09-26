@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backend data collection</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="from-box">
+        <div id="data">
+            <div id="enter_data">
+                <h3>ADD E-comerace data</h3>
+                <div>
+                    <label for="">Id Number <br>
+                    <input type="text" id="id" placeholder="Enter id"></label>
+                </div>
+                <div>
+                    <label for="">Image Url:<br><input type="url" id="img" placeholder="Enter img url"></label>
+                </div>
+                <div>
+                    <label for="">products name <br>
+                    <input type="text" id="name" placeholder="ENter products name"></label>
+                </div>
+                <div>
+                    <label for="">Price <br>
+                    <input type="number" id="price" placeholder="price"></label>
+                </div>
+                <div>
+                    <label for="">products discripation <br>
+                    <input type="text" id="disc_products" placeholder="enter discreipation of products"></label>
+                </div>
+                <div>
+                    <label for="">rating <br>
+                    <input type="text" id="qyt" placeholder="enter rating"></label>
+                </div>
+                <div>
+                    <label for="">TYPE OF PRODUCTS <br>
+                    <SELect id="type">
+                        <option value="t-sirts">t-sirts</option>
+                        <option value="men">men</option>
+                        <option value="women">women</option>
+                    </SELect>
+                </div>
+                <div>
+                    <div id='collect'><button >ADD DATA</button></div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
+<script>
+
+async function dis(){
+    let res=await fetch('http://localhost:3000/api/products');
+    let data=await res.json()
+    console.log(data)
+}
+dis()
+    
+    document.getElementById("collect").addEventListener("click",function(){
+        collect_data()
+    })
+
+let collect_data = async()=>{ 
+
+    let type=document.getElementById("type").value;
+        const data={
+            id:document.getElementById("id").value,
+            Image:document.getElementById("img").value,
+            Name:document.getElementById("name").value,
+            Price:document.getElementById("price").value,
+            Discripation:document.getElementById("disc_products").value,
+            rating:document.getElementById("qyt").value,
+            category:document.getElementById("type").value,
+        }
+        console.log(data)
+        let response=await fetch(`http://localhost:3000/api/products`,{
+            method:"POST",
+            body:JSON.stringify(data),
+            headers:{'Content-Type':'application/json'},
+        })
+        console.log(data)
+    }
+</script>

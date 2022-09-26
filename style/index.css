@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.fullwidth{
+    width: 100%;
+}
+.width80{
+    width: 80%;
+    margin: auto;
+}
+.grid3{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid5{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.grid6{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.grid7{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.grid8{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+}

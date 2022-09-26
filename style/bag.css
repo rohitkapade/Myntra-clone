@@ -1,0 +1,297 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#Change1{
+    color: green;
+    text-decoration: underline;
+}
+#bag{
+    padding-top: 20px;
+}
+#delivery{
+    display: flex;
+}
+#delivery>img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+#process{
+    display: flex;
+   
+}
+#process+p{
+    color: red;
+}
+#process>p{
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+#process>p:hover{
+    color: green;
+    
+}
+#image{
+    display: flex;
+    justify-content: space-between;
+   letter-spacing: 3px;
+   font-weight: bold;
+}
+#bag{
+    width: 70%;
+    margin: auto;
+   
+    height: 800px;
+}
+#left{
+    width: 50%;
+    margin-right: 20px;
+    height: 800px;
+}
+#change{
+    color: red;
+    height: 50px;
+    padding:7px;
+    border: 1px solid red;
+    
+}
+#add{
+    justify-content: space-between;
+    display: flex;
+}
+#available{
+    display: flex;
+
+}
+#available>img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 13px;
+}
+#arrow{
+    width: 10px;
+    height: 10px;
+    color: red;
+}
+#bag{
+    display: flex;
+}
+#part22{
+width: 40%;
+height: auto;
+border-left:1px solid #eaeaec;
+}
+#part22>div{
+margin: 10px;
+padding-top: 20px;
+height: auto;
+width: 90%;
+margin: auto;
+}
+#covid{
+border-bottom: 1px solid #f5f5f6;
+margin-top: 20px;
+}
+#donate{
+margin-bottom: 16px;
+font-weight: 600;
+font-size: 12px;
+color: #535766;
+}
+#helpcovid{
+display:flex
+}
+#helpcovid>p{
+align-self:center ;
+margin-left: 10px;
+font-size: 14px;
+font-weight: 600;
+}
+#helpcovid>img{
+width: 10px;
+height: 10px;
+}
+#donateRs{
+display: flex;
+margin-top: 8px;
+}
+#donateRs>div{
+cursor: pointer;
+border-radius: 40px;
+white-space: nowrap;
+align-self: center;
+height: fit-content;
+margin-right: 6px;
+padding: 6px 10px;
+font-size: 14px;
+border: 1px solid #d4d5d9;
+color: #282c3f;
+}
+#knowmore{
+margin: 10px 0px 10px 0px;
+font-weight: 600;
+cursor: pointer;
+width: fit-content;
+color: #ff3f6c;
+}
+#coupon{
+border-bottom: 1px solid #f5f5f6;
+height: auto;
+padding-bottom: 10px;
+}
+#couphead{
+margin-bottom: 16px;
+font-weight: 600;
+font-size: 12px;
+color: #535766;
+}
+#applycontainer{
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+flex-wrap: nowrap;
+}
+#applycoupon{
+display: flex;
+width: auto;
+text-overflow: ellipsis;
+font-size: 14px;
+}
+
+#applycoupon>img{
+width: 10px;
+height: 10px;
+}
+#apply{
+font-size: 12px;
+text-align: center;
+top: 0px;
+right: 0px;
+padding: 15px 20px 10px 20px;
+font-weight: 600;
+border-radius: 2px;
+background-color: rgb(255, 255, 255);
+border-style: solid;
+border: 1px solid rgb(255,63,108);
+color: rgb(255,63,108);
+cursor: pointer;
+}
+#giftcontainer{
+padding-bottom: 10px;
+border-bottom: 1px solid #f5f5f6;
+}
+#giftcontainer>div{
+font-size: 12px;
+font-weight: 600;
+color: #535766;
+}
+#giftimg{
+margin-top: 8px;
+width: 100%;
+}
+#totalprice{
+display: flex;
+margin-bottom: 6px;
+justify-content: space-between;
+font-weight: 600;
+font-size: 15px;
+padding-top: 16px;
+border-top: 1px solid #eaeaec;
+color: #3e4152;
+line-height: 16px;
+}
+#button{
+width: 100%;
+letter-spacing: 1px;
+font-size: 14px;
+font-weight: 600;
+border-radius: 2px;
+border-width: 0px;
+padding: 10px 16px;
+background-color: rgb(255, 63, 108);
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+#offerlist{
+height: auto;
+}
+
+#prices{
+display: flex;
+}
+#prices>p{
+margin-right: 6px;
+font-size: 16px;
+}
+#rate{
+font-weight: 600;
+color: #282c3f;
+padding-right: 5px;
+}
+#costprices{
+text-decoration: line-through;
+color: #bfc0c6;
+fill: #bfc0c6;
+}
+#discounts{
+color: #ff3f6c;
+padding-left: 2px;
+}
+#date{
+color: #282c3f;
+font-size: 12px;
+letter-spacing: -.1px;
+line-height: 15px;
+}
+.spacebetween{
+display: flex;
+justify-content: space-between;
+}
+#pricedetail{
+font-size: 12px;
+font-weight: 600;
+margin: 24px 0 16px;
+color: #535766;
+}
+#price{
+color: #282c3f;
+font-size: 14px;
+line-height: 1.42857143;
+}
+#price>div>div{
+margin: 8px;
+}
+#₹99{
+text-decoration: line-through;
+margin-right: 4px;
+}
+#freeship{
+color: #03a685; 
+text-decoration: none;
+}
+#appcoup{
+font-size: 14px;
+color: #ff3f6c;
+}
+#showmore{
+    color: red;
+}
+#apply{
+    text-align: center;
+}
+#append-image{
+    width: 20%;
+}
+#cartcard{
+    display: flex;
+    
+}
+#cartcard>div{
+    margin-left: 50px;
+}
+#biggercartcard{
+    margin-bottom: 10px;
+}

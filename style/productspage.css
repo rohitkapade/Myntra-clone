@@ -1,0 +1,232 @@
+#sub-nav{
+    /* border: 0.5px solid pink; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#filter-head{
+    width: 16%;
+    height: 100%;
+    border: 0.5px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#filter-head > h4{
+    margin-left: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+#cat-sort{
+    width: 84%;
+    height: 100%;
+    border: 0.5px solid pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.min-fil{
+    height: 27px;
+    /* width: 110px; */
+    border-radius: 10px;
+    background-color: white;
+    border: 0px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+#sort{
+    width: 200px;
+    height: 25px;
+    margin-right: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#filters-products{
+    width: 100%;
+    height: auto ;
+    border: 0.5px solid rgb(227, 185, 192);
+    margin-top: 5px;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+#filters{
+    width: 16%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#products{
+    width: 74%;
+    height: auto;
+    border: 0.5px solid rgb(227, 185, 192);
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    /* align-items: center; */
+    justify-content: space-between;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: none;
+    padding-bottom: 50px;
+     
+}
+
+/*.card{
+    height: 400px;
+    width: 290px;
+    border: 1px solid black;
+    font-family: 'Titillium Web', sans-serif;
+}*/
+
+.pro-img{
+    height: 80%;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.rating{
+    height: 20px;
+    width: 45px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -32px;
+    opacity: 95%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.desc{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.name{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.price{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+#categ{
+    /* border: 0.5px solid ; */
+    height: 150px;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#categ > input{
+    margin-left: 15px;
+}
+
+#brand{
+    height: 260px;
+    width: 100%;
+    border: 0.5px solid rgb(227, 185, 192);
+    /* border-top: none; */
+}
+
+#brand > input{
+    margin-left: 15px;
+}
+
+#price4{
+    height: 230px;
+    width: 100%;
+    border: 0.5px solid rgb(227, 185, 192);
+    border-top: none;
+}
+
+#price4 > input{
+    margin-left: 15px;
+}
+
+#discount{
+    height: 270px;
+    width: 100%;
+    border: 0.5px solid rgb(227, 185, 192);
+    border-top: none;
+}
+
+#discount > input{
+    margin-left: 15px;
+}
+
+#sort1{
+    width: 220px;
+    height: 35px;
+}
+
+#pagination {
+    height: 120px;
+    width: 84%;
+    border: 1px solid pink;
+    margin-left: 16%;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#pages{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pagination > button{
+    width: 85px;
+    height: 39px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+}
+
+#pagination > button:hover{
+    border: 1px solid black;
+}
+
+#pagination > div > button {
+    height: 25px;
+    width: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid pink ;
+    border-radius: 3px;
+}
+
+#pagination > div > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.card:hover{
+    /* height: 410px;
+    width: 300px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
+}
