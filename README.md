@@ -37,8 +37,19 @@
 ##### 8. Storing your address
 ##### 9. Making Payment
 
+<h2>Homepage</h2>
+<img src="https://user-images.githubusercontent.com/101393249/192591762-56c2ded7-1b92-4892-9085-78e3a3fa9184.png" alt="">
+
+<h2>Product page</h2>
+<img src="https://user-images.githubusercontent.com/101393249/192591804-75725844-6c96-46af-91c1-52588aee721b.png" alt="">
+<img src="https://user-images.githubusercontent.com/101393249/192591855-74cd1578-3e88-4957-a5e6-10fe9b69bdef.png" alt="">
+
+<h2>Address and billing page</h2>
+<img src="https://user-images.githubusercontent.com/101393249/192591853-6ec20386-8c5a-472a-8647-364415c0472f.png" alt="">
+<img src="https://user-images.githubusercontent.com/101393249/192591851-819f74e0-fc0b-4d60-a3b2-46ec56d96c46.png" alt="">
 
 
-# Image, illustration source
+<h2>Checkout page</h2>
+<img src="https://user-images.githubusercontent.com/101393249/192591838-07fbb383-5480-474d-a22d-bcea5f98a6ce.png" alt="">
 
-All images, logos and illustrations are taken from Myntra website itself (https://www.myntra.com/)
+
